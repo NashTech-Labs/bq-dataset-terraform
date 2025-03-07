@@ -1,6 +1,6 @@
 module "datasets" {
   count          = 1
-  source         = "../../modules/bqdataset"
+  source         = "./modules/bqdataset"
   project_id     = var.project_id
   location       = var.location
   datasetname    = var.datasetname
